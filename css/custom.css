@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900);
+
+nav {
+	background-color: #4A254E;
+	border-bottom: solid 3px #4A254E;
+	display: flex;
+	flex-direction: row;
+	font-family: 'Roboto', sans-serif;
+	height: 50px;
+	width: 100%;
+	z-index: 1;
+}
+
+.navname {
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  line-height: 3em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.navname:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+	border-bottom: solid 3px #FCB040;
+}
+
+.logo {
+
+}
+
+.logobkgd {
+	background-color: #FFFFFF;
+	box-shadow: 2px 2px 3px 2px rgba(0,0,0,0.4);
+	padding: 1em;
+}
+
+
+header {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(/images/skylinegirl.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.title {
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	color: white;
+  	text-align: center;
+}
+
+h1 {
+  	text-transform: uppercase;
+  	margin: 0;
+  	font-size: 4rem;
+  	white-space: nowrap;
+  	font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+	color: #4A254E;
+  	font-size: 2rem;
+  	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	color: #696969;
+	font-size: 1rem;
+  	font-family: 'Roboto', sans-serif;
+  	margin-bottom: 1em;
+}
+
+.Careers {
+	color: #FCB040;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.Careers:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+main {
+  	max-width: 75%;
+  	margin: 20px auto;
+}
