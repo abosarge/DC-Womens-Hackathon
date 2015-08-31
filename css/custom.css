@@ -46,7 +46,7 @@ header {
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
     ),
-    url(/images/skylinegirl.jpg);
+    url(http://github.com/abosarge/DC-Womens-Hackathon/images/skylinegirl.jpg);
   background-size: cover;
   height: 100vh;
 }
